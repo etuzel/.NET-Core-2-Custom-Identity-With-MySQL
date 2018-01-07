@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore2CustomIdentityMySQL", "NetCore2CustomIdentityMySQL\NetCore2CustomIdentityMySQL.csproj", "{E05D65A2-27FC-44FB-8B4B-65C05D897C29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E05D65A2-27FC-44FB-8B4B-65C05D897C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E05D65A2-27FC-44FB-8B4B-65C05D897C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E05D65A2-27FC-44FB-8B4B-65C05D897C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E05D65A2-27FC-44FB-8B4B-65C05D897C29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54786B7B-0619-4323-8DB7-F9355C78A801}
+	EndGlobalSection
+EndGlobal

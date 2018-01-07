@@ -1,0 +1,31 @@
+﻿@model List<NetCore2CustomIdentityMySQL.Models.Users>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <h2>Users</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Username</th>
+                    <th>E-Mail</th>
+                    <th>E-Mail Confirmed?</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <td>@user.id</td>
+                        <td>@user.username</td>
+                        <td>@user.email</td>
+                        <td>@user.emailconfirmed</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
